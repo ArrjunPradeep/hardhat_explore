@@ -9,10 +9,10 @@ const PRIVATE_KEY = '';
 
 module.exports = {
   solidity: "0.8.0",
-  networks:{
-    ropsten: {
-      url:INFURA_URL,
-      accounts:[`0x${PRIVATE_KEY}`]
-    }
-  }
+  // networks:{
+  //   ropsten: {
+  //     url:INFURA_URL,
+  //     accounts:[`0x${PRIVATE_KEY}`]
+  //   }
+  // }
 };
